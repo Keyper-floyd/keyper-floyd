@@ -185,6 +185,17 @@ footer{
 
 /* MOBILE */
 @media (max-width:900px){
+  .hero-image {
+  height: 220px;          /* smaller box on phones */
+  border-radius: 20px;
+}
+
+.hero-image img {
+  object-fit: contain;    /* stops weird crop */
+  padding: 10px;          /* breathing room */
+  background: #FFF1F4;    /* matches theme */
+}
+
   header{padding:1rem 1.5rem;}
   nav a{margin-left:1rem;font-size:0.9rem;}
 
@@ -307,4 +318,5 @@ Currently we do not have an online store in place, so in order to purchase, cont
 
 </body>
 </html>
+
 
